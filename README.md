@@ -20,4 +20,33 @@ Este proyecto implementa un sistema interactivo de aprendizaje de palabras para 
 ```bash
    pantalla
 ```
+## Mapa de Pines
+| **Placa**         | **Conexión**                | **Pinout**    |
+| ----------------- | --------------------------- | ------------- |
+| Raspberry Pi Pico | Arduino UNO                 | Rx → Pin 7    |
+|                   |                             | Tx → Pin 6    |
+| Arduino UNO       | Raspberry Pi Pico           | Rx → 1        |
+|                   |                             | Tx → 0        |
+|                   | Lector RFID RC522           | SDA → Pin 6   |
+|                   |                             | SCK → Pin 13  |
+|                   |                             | MOSI → Pin 11 |
+|                   |                             | MISO → Pin 12 |
+|                   |                             | GND → GND     |
+|                   |                             | RST → Pin 9   |
+|                   |                             | VCC → 3.3V    |
+|                   | Codificador Rotativo KY-040 | CLK → Pin A2  |
+|                   |                             | DT → Pin A3   |
+|                   |                             | VCC → 5V      |
+|                   |                             | GND → GND     |
+|                   | OLED Display Module 0.91"   | SCL → SCL     |
+|                   |                             | SDA → SDA     |
+|                   |                             | VCC → 3.3V    |
+|                   |                             | GND → GND     |
+
+## Authors
+
+- [@Alyzzzzaaa](https://github.com/Alyzzzzaaa)
+
+- [@FoolishBishope](https://github.com/FoolishBishope)
+
 
