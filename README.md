@@ -47,6 +47,7 @@ Este proyecto implementa un sistema interactivo de aprendizaje de palabras para 
 
 - [@Alyzzzzaaa](https://github.com/Alyzzzzaaa)
 
-- [@FoolishBishope](https://github.com/FoolishBishope)
+- [@FoolishBishop](https://github.com/FoolishBishop)
+
 
 
